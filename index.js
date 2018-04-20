@@ -7,7 +7,7 @@ describe ('Name',()=>{it('returns"Susan"',() => {
 })})
 describe ("Height",()=>
 { it("is lessthan 40",() => {
-  expect(index.height).toBeLessThan(40)})})
+  expect(index.height).toBeLessThan(40)})})})
 
 module.exports = {name, height, message}
 

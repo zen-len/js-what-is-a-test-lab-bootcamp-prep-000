@@ -2,7 +2,7 @@
 var name = "Susan"
 var height = 39
 var message = ` is ${height} inches tall`
-describe ('Name',()=>{it('returns"Susan"',() => { 
+/*describe ('Name',()=>{it('returns"Susan"',() => { 
   expect(index.name).toEqual('Susan')
 })})
 describe ("Height",()=>
@@ -11,6 +11,6 @@ describe ("Height",()=>
 describe("Message",()=> {it("gives the name and height", ()=> { 
   expect (index.message).toInclude(index.name)
   expect (index.message).toInclude(index.height)
-})})
+})})*/
 module.exports = {name, height, message}
 
